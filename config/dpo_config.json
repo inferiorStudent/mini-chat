@@ -1,0 +1,10 @@
+{
+    "model_path": "./out/sft_model",
+    "output_dir": "./out",
+    "data_path": "./dataset/test_dpo.jsonl",
+
+    "beta": 0.1,
+    "batch_size": 4,
+    "learning_rate": 1e-5,
+    "epochs": 1
+}

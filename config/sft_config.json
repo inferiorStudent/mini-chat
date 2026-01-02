@@ -1,0 +1,12 @@
+{
+    "model_path": "./out/step_0",
+    "output_dir": "./out",
+    "data_path": "./dataset/test_sft.jsonl",
+
+    "max_seq_len": 1024,
+    "batch_size": 4,
+    "grad_acc_steps": 8,
+    "learning_rate": 5e-5,
+    "epochs": 3,
+    "logging_steps": 1
+}

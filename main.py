@@ -1,0 +1,10 @@
+from trainer.pretrain import pretrain
+from trainer.train_dpo import train_dpo
+from trainer.train_full_sft import sft_train
+from scripts.chat_terminal import chat, chat_, chat_origin
+
+if __name__ == "__main__":
+    pretrain()
+    sft_train()
+    train_dpo()
+    chat_()
