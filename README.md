@@ -1,11 +1,8 @@
 <div align="center">
-
-中文 | [English](./README_en.md)
-
+  中文 | <a href="./README_en.md">English</a>
 </div>
 
 <div align="center">
-
-![logo](./assets/logo.png)<h1>Mini-Chat</h1>
-
+  <img src="./assets/logo.png" width="100" />
+  <h1 style="display: inline;">Mini-Chat</h1>
 </div>
