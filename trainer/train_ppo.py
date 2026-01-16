@@ -67,7 +67,7 @@ def get_log_probs_and_values(model, input_ids, attention_mask, critic_model=None
     logits = outputs.logits # (batch, seq_len, vocab)
     log_probs = F.log_softmax(logits, dim=-1)
 
-    logits_seq = logits[:, :-1, :]
+    logits_seq = log_probs[:, :-1, :]
     input_ids_seq = input_ids[:, 1:]
 
     selected_log_probs = torch.gather(logits_seq, -1, input_ids_seq.unsqueeze(-1)).squeeze(-1)
